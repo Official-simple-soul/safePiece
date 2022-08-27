@@ -202,6 +202,7 @@ blockquote {
 .calculator-frame input {
     font-size: 25px;
     text-align: right;
+    background-color: white;
 }
 
 @media (max-width: 450px) {
