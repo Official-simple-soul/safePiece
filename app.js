@@ -7,6 +7,8 @@ let input = document.querySelector('.calculator-frame input')
 let clear = document.querySelectorAll('.calculator-frame .clear')
 let del = document.querySelector('.calculator-frame .del')
 let equal = document.querySelector('.calculator-frame .equal')
+let nav = document.querySelector('.nav-links')
+let toggler = document.querySelector('.fa-solid')
 
 
 for (let button of btn) {
@@ -35,4 +37,9 @@ for (let button of btn) {
         }
     })    
 }
+
+toggler.addEventListener('click', function() {
+    nav.classList.toggle('show')
+    toggler.classList.toggle('fa-xmark')
+})
 
