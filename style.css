@@ -205,6 +205,10 @@ blockquote {
     background-color: white;
 }
 
+.calculator-frame input:focus {
+    color: white;
+}
+
 @media (max-width: 450px) {
 
     .fa-solid {
@@ -213,7 +217,7 @@ blockquote {
     }
 
     aside {
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .nav-links {
@@ -249,7 +253,7 @@ blockquote {
     }
 
     .text {
-        margin: 50px 0 0 0;
+        margin: 70px 0 0 0;
     }
 
     .text h1 {
@@ -257,9 +261,10 @@ blockquote {
     }
     .text p {
         font-size: 20px;
+        margin: 35px 0;
     }
 
     .text button {
-        margin-bottom: 55px;
+        margin-bottom: 70px;
     }
 }
