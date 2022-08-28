@@ -312,4 +312,12 @@ blockquote {
     .text button {
         margin-bottom: 70px;
     }
+
+    .player-cards {
+        flex-direction: column;
+    }
+
+    .count {
+        flex-direction: column;
+    }
 }
