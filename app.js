@@ -73,7 +73,7 @@ random.addEventListener('click', function() {
 
         let firstCount = 0
         firstCount = firstCount + randomNumber;
-    playerCountOne.innerText = firstCount 
-    // playerCountTwo.innerText = cardTwo.innerHTML;
+    playerCountOne.innerText = firstCount;
+    playerCountTwo.innerText = firstCount;
 })
 
