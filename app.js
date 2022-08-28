@@ -13,9 +13,15 @@ let toggler = document.querySelector('.fa-solid')
 for (let button of btn) {
     button.addEventListener('click', function(e) {
         switch(e.target.textContent) {
-            case 'C', 'Stop':
+            case 'C':
                 input.value = '';
                 break;
+
+            case 'Stop':
+                input.value = '';
+                break;
+
+        
 
             case 'del':
                 if(input.value){
